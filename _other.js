@@ -4,7 +4,7 @@ var gulp = require('gulp'),
     sass = require('gulp-sass');
 
 // Default task
-gulp.task('default', ['clean'], function () {
+gulp.task('default', [], function () {
     gulp.start([
         'gen-html',
         'gen-css',
@@ -39,4 +39,9 @@ gulp.task('gen-html', function () {
 gulp.task('gen-img', function () {
     return gulp.src(['src/img/**.*'])
         .pipe(gulp.dest('release/img'));
+});
+
+gulp.task('watch', function () {
+    gulp.watch('src/**/*.scss', ['default']);
+    gulp.watch('src/**/*.html', ['default']);
 });
