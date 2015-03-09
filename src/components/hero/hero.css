@@ -1,0 +1,8 @@
+#hero .hero {
+  height: 400px;
+  background-image: url("img/hero-1.jpg");
+  background-size: cover;
+  border-radius: 3px;
+  margin-bottom: auto; }
+
+/*# sourceMappingURL=hero.css.map */

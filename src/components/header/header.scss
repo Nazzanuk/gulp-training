@@ -1,0 +1,17 @@
+$primary: #cd2913;
+
+#header {
+  background: #ffffff;
+  position: fixed;
+  height: 53px;
+  line-height: 50px;
+  top:0;
+  left:0;
+  right:0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+  color:#555;
+  border-top:3px solid $primary;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+}
