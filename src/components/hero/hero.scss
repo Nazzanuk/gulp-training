@@ -1,10 +1,10 @@
 #hero {
   .hero {
     height:400px;
-    background-image: url("img/hero-1.jpg");
-
+    background: center;
     background-size: cover;
     border-radius: 3px;
     margin-bottom: 15px;
+    overflow: hidden;
   }
 }
